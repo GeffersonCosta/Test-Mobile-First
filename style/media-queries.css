@@ -3,12 +3,12 @@
 @media screen and (min-width: 768px){
 
     #mburguer{display:block;}
-    #area-principal{width: 768px;}
+  
 }
   @media screen and (min-width: 768px) and (max-width: 992px){
 
     #area-lateral{display: none;}
-     
+    #mburguer{display:none;} 
     
 }
     /*menu{display: none;}
