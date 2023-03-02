@@ -9,10 +9,7 @@
 /*
 ** layout **
 */
-body, html{
-	width: 100vw;
-	height: 100vh;
-}
+
 body{
 	background: #e6e6e6;
 	font-size: 1em;
@@ -22,10 +19,6 @@ body{
 #area-cabecalho{
 	background: #f88b01;
 	text-align: center;
-	
-	
-	
-
 }
 #area-logo 
 {
@@ -81,9 +74,6 @@ ul#area-menu > li > a:hover{
 	background-color:white;
 }
 
-
-
-
 #area-principal-celulares a:link , #area-principal-celulares a:visited{
 	color: black;
 	text-decoration: none;
@@ -101,17 +91,11 @@ ul#area-menu > li > a:hover{
 	margin: 0 auto;
 	padding: 15px;
 	display: flex;
-	width: 90%;
 	border: 1px solid red;
-	
-	
-	
-	
+	width: 90%;
 }
 #area-postagens{
-	width: 768px;
 	margin: auto;
-
 }
 
 div.postagem{
@@ -149,9 +133,8 @@ img{
 	border-radius: 10px;
 
 }
-
 #rodape{
-		clear: both;
+		
 		background: #ccc;
 		text-align: center;
 		padding: 15px;
@@ -162,9 +145,6 @@ img{
 */
 .absolute {
 	position: absolute;
-	
-	
-
 }
 /*
 *** area lateral celulares ***
@@ -179,24 +159,6 @@ img{
 	margin-top: 5px;
 	float: left;
 }
-
-
-
-
-
-
-
-.clear{
-	clear: both;
-}
-
-
-
-
-
-
-
-
 /*
 ** formatacoes em geral **
 */
