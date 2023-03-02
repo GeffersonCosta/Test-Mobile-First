@@ -19,6 +19,7 @@ body{
 #area-cabecalho{
 	background: #f88b01;
 	text-align: center;
+	width: 100%;
 }
 #area-logo 
 {
@@ -123,8 +124,8 @@ div.postagem > p{
 img{
 	display: block;
 	margin: auto;
-	max-width:45vw;
-	min-width:420px;
+	max-width:50vw;
+	min-width:500px;
 }
 .conteudo-lateral{
 	background: white;
