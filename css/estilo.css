@@ -4,19 +4,25 @@
 	margin: 0px;
 	padding: 0px;
 	font-family: Arial, Helvetica, sans-serif;
+	
 }
 /*
 ** layout **
 */
+body, html{
+	width: 100vw;
+	height: 100vh;
+}
 body{
 	background: #e6e6e6;
 	font-size: 1em;
-
+	
 }
 
 #area-cabecalho{
 	background: #f88b01;
 	text-align: center;
+	
 	
 	
 
@@ -99,6 +105,7 @@ ul#area-menu > li > a:hover{
 	margin: 0 auto;
 	padding: 15px;
 	display: flex;
+	width: 90%;
 	
 	
 	
@@ -135,7 +142,8 @@ div.postagem > p{
 img{
 	display: block;
 	margin: auto;
-	
+	max-width:45vw;
+	min-width:420px;
 }
 .conteudo-lateral{
 	background: white;
