@@ -92,10 +92,6 @@ ul#area-menu > li > a:hover{
 	color:#D2691E;
 	
 }
-
-
-
-
 /*
 ** fomatacoes principal **
 */
@@ -169,49 +165,9 @@ img{
 	
 
 }
-
-#area-principal-celulares {
-   
-	width:1150px;
-	background: white;
-	padding: 15px;
-	margin: 0 auto;
-	
-	
-	
-	
-}
-
-.postagem-celulares{
-	
-	width: 200px;
-	margin: 20px;
-
-	background: white;
-	float: right;
-	border: 1px solid #F8F8FF;
-	
-}
-#descricao-postagem-celulares{
-	font-size: 1.2em;
-	background:#F8F8FF ;
-	padding: 10px;
-	margin: 0px;
-}
-#preco{
-	font-size: 1.4em;
-}
 /*
 *** area lateral celulares ***
 */
-
-#area-lateral-celulares{
-
-	width: 200px;
-	margin-top: 20px;
-	border: 1px solid #F8F8FF;
-	
-}
 #area-lateral-delatalhes{
 	padding: 5px;
 	margin-top: 5px;
