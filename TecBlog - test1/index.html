@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TecBlog</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" href="style/media-queries.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body onresize="changeSize()">
+
+	<div id="area-cabecalho">
+
+	 	<div id="area-logo">
+			<h1>Tec<span class="branco">Blog</span></h1>
+		</div>
+		   <span id="mburguer" class="material-symbols-outlined" onclick="clickMenu()">
+			menu
+		   </span>
+		   <menu id="menu">
+			<ul id="area-menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Jogos</a></li>
+				<li><a href="#">Celulares</a></li>
+			<li><a href="#">Informática</a></li>
+			<li><a href="#">Eletrônicos</a></li>
+			</ul>
+		</menu>	
+	</div>
+
+
+	  <div id="area-principal">
+	  		<div id="area-postagens">
+	  			<div class="postagem">
+	  				<h2>Titulo da postagem 1</h2>
+	  				<span class="data-postagem">postado 20 de junho de 2021</span>
+	  				<img  src="imagens/imagem1.jpg">
+	  				<p>
+	  					t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+	  					<a href="">Leia mais</a>
+	  				</p>
+
+	  			</div>
+	  			<div class="postagem">
+	  				<h2>Titulo da postagem 2</h2>
+	  				<span class="data-postagem">postado 18 de junho de 2021</span>
+	  				<img  src="imagens/imagem2.jpg">
+	  				<p>
+	  					t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+	  					<a href="">Leia mais</a>
+	  				</p>
+
+	  			</div>
+	  			<div class="postagem">
+	  				<h2>Titulo da postagem 3</h2>
+	  				<span class="data-postagem">postado 15 de junho de 2021</span>
+	  				<img  src="imagens/imagem3.jpg">
+	  				<p>
+	  					t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+	  					<a href="">Leia mais</a>
+	  				</p>
+
+	  			</div>
+	  		</div>
+
+	  		<div id="area-lateral">
+	  			<div class="conteudo-lateral">
+	  				<h3>Postagens recentes</h3>
+	  				<div class="postagem-lateral">
+	  				 <p>
+	  				 	t is a long established fact that a reader will be distracted by the readable content.
+	  				</p>
+	  				 <a href="">Leia mais</a>
+	  				</div><hr>
+	  				<div class="postagem-lateral">
+	  				 <p>
+	  				 	t is a long established fact that a reader will be distracted by the readable content.
+	  				 	
+	  				 </p>
+	  				 <a href="">Leia mais</a>
+	  				</div>
+	  			</div>
+
+	  			    
+	  				<div class="conteudo-lateral">
+	  					<h3>Categoria</h3>
+	  					<div>
+	  					<a href="index.html">Home</a><br>
+						<a href="Jogos.html">Jogos</a><br>
+						<a href="celulares.html">Celulares</a><br>
+						<a href="informatica.html">Informática</a><br>
+						<a href="eletronicos.html">Eletrônicos</a><br>
+	  				    </div>
+	  		      </div>
+
+	        </div>
+
+
+			
+	  </div>
+	  <div id="rodape">
+	  	    Todos os direitos reservados  by <a href="https://www.facebook.com/gefferson.henrique1">Gefferson Costa</a>
+	  </div>
+
+	  <script>
+		function changeSize(){
+                if(window.innerWidth >= 768){
+                    menu.style.display = "block"
+                }
+                else{
+                    menu.style.display = "none"
+                }
+             }
+
+
+		function clickMenu(){
+			if(menu.style.display == "block"){
+				menu.style.display = "none"
+			}else{
+				menu.style.display = "block"
+			}
+			}
+
+	  </script>
+
+</body>
+</html>

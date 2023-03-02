@@ -1,0 +1,266 @@
+*
+{
+	
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*
+** layout **
+*/
+body{
+	background: #e6e6e6;
+	font-size: 1em;
+
+}
+
+#area-cabecalho{
+	background: #f88b01;
+	text-align: center;
+	
+	
+
+}
+#area-logo 
+{
+	 padding: 10px;
+}
+#area-menu{
+	padding-top: 15px;
+}
+
+/*
+** formatacoes menu **
+*/
+ul#area-menu{
+	list-style: none;
+}
+span#mburguer{
+	color: white;
+	padding: 5px;
+	margin-bottom: 10px;
+	background-color: #c67307e6;
+	border-radius: 10px;
+	cursor: pointer;
+}
+a:link , a:visited{
+	text-decoration: none;
+	color:#f88b01;
+}
+a:hover{
+	text-decoration: underline;
+}
+#rodape a:link{
+	color: black;
+	
+}
+
+#area-cabecalho a:link ,#area-cabecalho a:visited {
+
+	padding: 8px 12px;
+    text-decoration: none;
+}
+
+ul#area-menu > li{
+	background-color:#f88b01;
+	border-top:1px solid rgba(111, 111, 111, 0.811);
+}
+ul#area-menu > li > a{
+	display: block;
+	color: white;
+	
+}
+ul#area-menu > li > a:hover{
+	color: #f88b01;
+	background-color:white;
+}
+
+
+
+
+#area-principal-celulares a:link , #area-principal-celulares a:visited{
+	color: black;
+	text-decoration: none;
+}
+#area-principal-celulares a:hover{
+	color:#D2691E;
+	
+}
+
+
+
+
+/*
+** fomatacoes principal **
+*/
+
+#area-principal{
+
+	margin: 0 auto;
+	padding: 15px;
+	display: flex;
+	
+	
+	
+	
+}
+#area-postagens{
+	width: 768px;
+	margin: auto;
+
+}
+
+div.postagem{
+	border-radius:10px;
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+	
+}
+div.postagem > p{
+	padding-top: 20px;
+	text-indent: 20px;
+	text-align: justify;
+}
+#area-lateral{
+
+ padding-left: 20px;		
+}
+.postagem-lateral{
+
+ font-size: 0.8em;
+  margin: 5px;
+  
+}
+img{
+	display: block;
+	margin: auto;
+	max-width: 50vw;
+	min-width:360px;
+}
+.conteudo-lateral{
+	background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+	border-radius: 10px;
+
+}
+
+#rodape{
+		clear: both;
+		background: #ccc;
+		text-align: center;
+		padding: 15px;
+}
+
+/*
+*** celulares ***
+*/
+.absolute {
+	position: absolute;
+	
+	
+
+}
+
+#area-principal-celulares {
+   
+	width:1150px;
+	background: white;
+	padding: 15px;
+	margin: 0 auto;
+	
+	
+	
+	
+}
+
+.postagem-celulares{
+	
+	width: 200px;
+	margin: 20px;
+
+	background: white;
+	float: right;
+	border: 1px solid #F8F8FF;
+	
+}
+#descricao-postagem-celulares{
+	font-size: 1.2em;
+	background:#F8F8FF ;
+	padding: 10px;
+	margin: 0px;
+}
+#preco{
+	font-size: 1.4em;
+}
+/*
+*** area lateral celulares ***
+*/
+
+#area-lateral-celulares{
+
+	width: 200px;
+	margin-top: 20px;
+	border: 1px solid #F8F8FF;
+	
+}
+#area-lateral-delatalhes{
+	padding: 5px;
+	margin-top: 5px;
+	float: left;
+
+}
+#conteudo-lateral{
+	margin-top: 5px;
+	float: left;
+}
+
+
+
+
+
+
+
+.clear{
+	clear: both;
+}
+
+
+
+
+
+
+
+
+/*
+** formatacoes em geral **
+*/
+
+h1{
+	font-size: 2.5em;
+}
+.branco{
+	color: white;
+}
+.preto{
+	color: black;
+}
+h2{
+	color: #f7b600;
+}
+h3{
+	background: #ccc;
+	padding: 5px;
+}
+.data-postagem{
+	font-size: 0.8em;
+	border-bottom: 0px solid #f4f4f4;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	display: block;
+	
+	
+}
+
+
