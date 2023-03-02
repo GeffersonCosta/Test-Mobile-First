@@ -102,6 +102,7 @@ ul#area-menu > li > a:hover{
 	padding: 15px;
 	display: flex;
 	width: 90%;
+	border: 1px solid red;
 	
 	
 	
