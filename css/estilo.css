@@ -90,7 +90,7 @@ ul#area-menu > li > a:hover{
 
 #area-principal{
     display: flex;
-	margin: 0 auto;
+	margin: auto;
 	padding: 15px;
 	width: 90%;
 }
@@ -124,7 +124,7 @@ img{
 	display: block;
 	margin: auto;
 	width: 70%;
-	max-width:600px;
+	max-width:550px;
 	min-width:300px;
 	
 }
