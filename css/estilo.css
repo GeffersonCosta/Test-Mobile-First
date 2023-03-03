@@ -112,7 +112,7 @@ div.postagem > p{
 	text-align: justify;
 }
 #area-lateral{
-
+ display: none;
  padding-left: 20px;		
 }
 .postagem-lateral{
