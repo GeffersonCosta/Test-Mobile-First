@@ -99,14 +99,14 @@ ul#area-menu > li > a:hover{
 	margin: auto;
 }
 
-div.postagem{
+.postagem{
 	border-radius:10px;
 	padding: 20px;
 	margin-bottom: 20px;
 	background: white;
 	
 }
-div.postagem > p{
+.postagem > p{
 	padding-top: 20px;
 	text-indent: 20px;
 	text-align: justify;
@@ -141,15 +141,7 @@ img{
 		width: 100%;
 }
 
-/*
-*** celulares ***
-*/
-.absolute {
-	position: absolute;
-}
-/*
-*** area lateral celulares ***
-*/
+
 #area-lateral-delatalhes{
 	padding: 5px;
 	margin-top: 5px;
