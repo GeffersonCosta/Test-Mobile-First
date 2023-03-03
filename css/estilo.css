@@ -124,9 +124,6 @@ div.postagem > p{
 img{
 	display: block;
 	margin: auto;
-	width: 70%;
-	max-width:550px;
-	min-width:300px;
 	
 }
 .conteudo-lateral{
