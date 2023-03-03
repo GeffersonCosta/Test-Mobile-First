@@ -94,6 +94,8 @@ ul#area-menu > li > a:hover{
 	margin: auto;
 	padding: 15px;
 	width: 90%;
+	min-width:300px;
+	max-width:1200px;
 }
 #area-postagens{
 	margin: auto;

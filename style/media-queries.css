@@ -1,15 +1,17 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px){}
 
-    #mburguer{display:block;}
+    /*#mburguer{display:block;}
     #area-principal{width: 900px;
     border: 3px solid red;}
     #area-postagens{width: 800px;}
-    #area-lateral{width: 150px;}
+    #area-lateral{width: 150px;}*\
+
+
     
   
-}
+    }
 @media screen and (max-width: 920px){
 
   #area-lateral{display:none;}
