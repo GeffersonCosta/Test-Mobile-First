@@ -146,14 +146,6 @@ img{
 /*
 *** area lateral celulares ***
 */
-
-#area-lateral-celulares{
-
-	width: 200px;
-	margin-top: 20px;
-	border: 1px solid #F8F8FF;
-	
-}
 #area-lateral-delatalhes{
 	padding: 5px;
 	margin-top: 5px;
@@ -163,10 +155,6 @@ img{
 #conteudo-lateral{
 	margin-top: 5px;
 	float: left;
-}
-
-.clear{
-	clear: both;
 }
 /*
 ** formatacoes em geral **
