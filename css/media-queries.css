@@ -1,11 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px){
-    span#mburguer{border: 1px solid black;}
+   
     #mburguer{display: none;}
     #area-menu  ul{
         display:none;
-        border: 1px solid red;
     }
     menu > ul{
         display: flex;
@@ -16,10 +15,8 @@
        align-self: center;
        padding-left: 15px;
     }
-  #area-principal{width:800px;
-  border: 1px solid palevioletred;}
-  #area-postagens{width:600px;
-  border: 1px solid red;}
+  #area-principal{width:800px;}
+  #area-postagens{width:600px;}
   #area-lateral{width:200px;}
 
 }

@@ -102,14 +102,14 @@ a:hover{
 
 }
 
-div.postagem{
+.postagem{
 	border-radius:10px;
 	padding: 20px;
 	margin-bottom: 20px;
 	background: white;
 	
 }
-div.postagem > p{
+.postagem > p{
 	padding-top: 20px;
 	text-indent: 20px;
 	text-align: justify;
