@@ -4,7 +4,7 @@
    
     #mburguer{display: none;}
     #area-menu  ul{
-        display:block;
+        display:none;
     }
     menu > ul{
         display: flex;
