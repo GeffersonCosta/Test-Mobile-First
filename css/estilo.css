@@ -94,7 +94,8 @@ a:hover{
     width: 90%;
 	margin: 0 auto;
 	padding: 15px;
-	display: flex;	
+	display: flex;
+	justify-content: center;	
 }
 #area-postagens{
 	width: 768px;
