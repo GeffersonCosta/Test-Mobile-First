@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+
+    #mburguer{display: none;}
+    #area-menu > {
+        display:block;
+        border: 1px solid red;
+    }
+    menu > ul{
+        display: flex;
+        justify-content: center;
+    }
+    ul li{
+       flex-direction: row;
+       align-self: center;
+       padding-left: 15px;
+    }
+  #area-principal{width:800px;
+  border: 1px solid palevioletred;}
+  #area-postagens{width:600px;
+  border: 1px solid red;}
+  #area-lateral{width:200px;}
+
+}
+@media screen and (max-width: 768px){
+
+    #area-lateral{display: none;}
+
+    
+}

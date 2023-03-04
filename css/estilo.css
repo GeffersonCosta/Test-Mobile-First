@@ -4,43 +4,39 @@
 	margin: 0px;
 	padding: 0px;
 	font-family: Arial, Helvetica, sans-serif;
-	overflow-x:hidden ;
-	
 }
 /*
 ** layout **
 */
-
-body,html{
+body{
 	background: #e6e6e6;
-   width: 100%;
-  
-	
+	font-size: 1em;
+
 }
 
 #area-cabecalho{
 	background: #f88b01;
 	text-align: center;
-	
 }
 #area-logo 
 {
 	 padding: 10px;
 }
 #area-menu{
-	padding-top: 15px;
+	
+
 }
 
 /*
 ** formatacoes menu **
 */
-ul#area-menu{
+#area-menu{
 	list-style: none;
 }
 span#mburguer{
 	color: white;
 	padding: 5px;
-	margin-top: 30px;
+	margin-bottom: 10px;
 	background-color: #c67307e6;
 	border-radius: 10px;
 	cursor: pointer;
@@ -62,20 +58,22 @@ a:hover{
 	padding: 8px 12px;
     text-decoration: none;
 }
-
-ul#area-menu > li{
+#area-menu > li{
 	background-color:#f88b01;
 	border-top:1px solid rgba(111, 111, 111, 0.811);
 }
-ul#area-menu > li > a{
+#area-menu > li > a{
 	display: block;
 	color: white;
 	
 }
-ul#area-menu > li > a:hover{
+#area-menu > li > a:hover{
 	color: #f88b01;
 	background-color:white;
 }
+
+
+
 
 #area-principal-celulares a:link , #area-principal-celulares a:visited{
 	color: black;
@@ -90,31 +88,31 @@ ul#area-menu > li > a:hover{
 */
 
 #area-principal{
-    display: flex;
-	margin: auto;
+
+	margin: 0 auto;
 	padding: 15px;
-	width: 90%;
-	min-width:300px;
-	max-width:1200px;
+	display: flex;	
 }
 #area-postagens{
+	width: 768px;
 	margin: auto;
+
 }
 
-.postagem{
+div.postagem{
 	border-radius:10px;
 	padding: 20px;
 	margin-bottom: 20px;
 	background: white;
 	
 }
-.postagem > p{
+div.postagem > p{
 	padding-top: 20px;
 	text-indent: 20px;
 	text-align: justify;
 }
 #area-lateral{
- display: none;
+
  padding-left: 20px;		
 }
 .postagem-lateral{
@@ -126,7 +124,8 @@ ul#area-menu > li > a:hover{
 img{
 	display: block;
 	margin: auto;
-	
+	max-width: 50vw;
+	min-width:768px;
 }
 .conteudo-lateral{
 	background: white;
@@ -135,15 +134,58 @@ img{
 	border-radius: 10px;
 
 }
+
 #rodape{
-		
+		clear: both;
 		background: #ccc;
 		text-align: center;
 		padding: 15px;
-		width: 100%;
 }
 
+/*
+*** celulares ***
+*/
+.absolute {
+	position: absolute;
+}
 
+#area-principal-celulares {
+   
+	width:1150px;
+	background: white;
+	padding: 15px;
+	margin: 0 auto;	
+}
+
+.postagem-celulares{
+	
+	margin: 20px;
+
+	background: white;
+	float: right;
+	border: 1px solid #F8F8FF;
+	
+}
+#descricao-postagem-celulares{
+	font-size: 1.2em;
+	background:#F8F8FF ;
+	padding: 10px;
+	margin: 0px;
+}
+#preco{
+	font-size: 1.4em;
+}
+/*
+*** area lateral celulares ***
+*/
+
+#area-lateral-celulares{
+
+	width: 200px;
+	margin-top: 20px;
+	border: 1px solid #F8F8FF;
+	
+}
 #area-lateral-delatalhes{
 	padding: 5px;
 	margin-top: 5px;
@@ -153,6 +195,10 @@ img{
 #conteudo-lateral{
 	margin-top: 5px;
 	float: left;
+}
+
+.clear{
+	clear: both;
 }
 /*
 ** formatacoes em geral **
