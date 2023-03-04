@@ -9,8 +9,11 @@
 ** layout **
 */
 body{
+	overflow-x:hidden;
 	background: #e6e6e6;
 	font-size: 1em;
+	min-width:500px;
+	min-height:600px;
 
 }
 
@@ -88,7 +91,7 @@ a:hover{
 */
 
 #area-principal{
-
+    width: 90%;
 	margin: 0 auto;
 	padding: 15px;
 	display: flex;	

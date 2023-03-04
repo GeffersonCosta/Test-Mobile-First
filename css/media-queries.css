@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px){
-
+    span#mburguer{border: 1px solid black;}
     #mburguer{display: none;}
-    #area-menu > {
-        display:block;
+    #area-menu  ul{
+        display:none;
         border: 1px solid red;
     }
     menu > ul{
