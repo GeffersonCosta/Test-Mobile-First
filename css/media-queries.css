@@ -15,15 +15,9 @@
        align-self: center;
        padding-left: 15px;
     }
-
-  #area-principal{width:800px;}
-   #area-postagens{width:600px;}
-   #area-lateral{width:200px;}
+    main{
+        width: 768px;
+    }
 
 }
-@media screen and (max-width: 768px){
 
-    #area-lateral{display: none;}
-
-    
-}
