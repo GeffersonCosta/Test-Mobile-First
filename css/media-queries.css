@@ -15,9 +15,7 @@
        align-self: center;
        padding-left: 15px;
     }
-    main{
-        width: 768px;
-    }
+
 
 }
 @media screen and (min-width: 992px){
