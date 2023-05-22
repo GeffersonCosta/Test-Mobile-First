@@ -11,8 +11,10 @@ body{
 	overflow-x:hidden;
 	background: #e6e6e6;
 	font-size: 1em;
+}
+ html{
 
-
+	height: 100vh;
 }
 
 #area-cabecalho{
@@ -30,7 +32,8 @@ body{
 #area-menu{
 	list-style: none;
 }
-span#mburguer{
+
+#mburguer{
 	color: white;
 	padding: 5px;
 	margin-bottom: 10px;
@@ -75,7 +78,7 @@ a:hover{
 */
 
 main{
-   
+    width:90%;
     margin: auto;
 	padding: 15px;
 	
