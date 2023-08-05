@@ -84,14 +84,16 @@ main{
     margin: auto;
 	padding: 15px;
 	
+	
 }
 
 
-.postagem{
+article.postagem{
 	border-radius:10px;
 	padding: 20px;
 	margin-bottom: 20px;
 	background: white;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.288);
 	
 }
 .postagem > p{
